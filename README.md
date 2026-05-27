@@ -39,6 +39,19 @@ There's nothing special about `src/components/`, but that's where we like to put
 
 The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
 
+## Blog image naming
+
+- Keep post-specific images next to the post file in `src/content/blog/`.
+- Use the same slug as the post file name.
+- Prefer the suffix `-hero` for post banner images.
+
+Example:
+
+- `create-personal-blog-astro-github-cloudflare.md`
+- `create-personal-blog-astro-github-cloudflare-hero.png`
+
+## Notes
+
 Any static assets, like images, can be placed in the `public/` directory.
 
 ## 🧞 Commands
