@@ -31,6 +31,17 @@ npm run preview
 - `src/styles/global.css` — global styling
 - `public/` — static assets
 
+## Blog image naming
+
+- Keep post-specific images next to the post file in `src/content/blog/`.
+- Use the same slug as the post file name.
+- Prefer the suffix `-hero` for post banner images.
+
+Example:
+
+- `create-personal-blog-astro-github-cloudflare.md`
+- `create-personal-blog-astro-github-cloudflare-hero.png`
+
 ## Notes
 
 - The header and footer use GitHub only for social links.
