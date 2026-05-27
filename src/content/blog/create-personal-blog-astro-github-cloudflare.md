@@ -2,6 +2,7 @@
 title: 'How I Built This Blog with Astro, GitHub, and Cloudflare Pages'
 description: 'A practical walkthrough for creating a personal technical blog using Astro, GitHub, and Cloudflare Pages.'
 pubDate: 2026-05-25
+heroImage: './create-personal-blog-astro-github-cloudflare-thumbnail.png'
 ---
 
 I wanted a personal blog that was more flexible than a hosted writing platform. The main requirement was simple: most posts should be easy to write in Markdown, but the site should still leave room for custom pages, JavaScript experiments, notebooks, and future interactive work.
